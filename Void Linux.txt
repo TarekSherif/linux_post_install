@@ -1,0 +1,129 @@
+## Operating System and Environment ##
+======================================
+Operating System: Arch Linux
+https://www.archlinux.org/
+
+Window Manager: i3-Gaps
+https://i3wm.org/
+https://wiki.archlinux.org/index.php/I3
+
+File Manager: Ranger
+https://github.com/ranger/ranger
+https://wiki.archlinux.org/index.php/...
+
+Text Editor (and much more): vim
+https://www.vim.org/
+
+
+
+ 
+git clone git://git.suckless.org/st
+git clone git://git.suckless.org/dwm
+git clone git://git.suckless.org/slstatus
+git clone git://git.suckless.org/dmenu
+ 
+
+
+
+
+Void Linux Installation: 
+http://www.troubleshooters.com/linux/void/quickinst.htm
+http://www.troubleshooters.com/linux/
+*******************************************************
+
+Suckless
+
+install dwm suckless-tools 
+st  terminal
+dwm  windo manager
+dmenu
+statusbar
+
+
+
+
+***************************************************************
+
+
+$ alias install="xbps-install -Syu"
+
+
+
+doas xbps-install -Syu
+
+doas xbps-install -Sy xorg-server xinit libX11-devel libXft-devel libXinerama-devel glib-devel font-inconsolata-otf
+
+doas xbps-install -Sy xorg
+
+doas xbps-install -Sy git gcc make pkg-config
+
+doas xbps-install -Sy man-pages-devel
+
+doas xbps-install -Sy webkit2gtk-devel gcr-devel
+
+doas xbps-install -Sy gst-libav gst-plugins-good1
+
+doas xbps-install -Sy mpd ffmpeg mpv youtube-dl
+
+doas xbps-install -Sy iotop htop
+
+doas xbps-install -Sy groff sxhkd zathura-pdf-mupdf vim rsync firefox alsa-utils xz ImageMagick pass
+
+
+doas xbps-install -Sy fuse-exfat
+
+
+wpa_passphrase your-ESSID your-wifi-passphrase | sudo tee /etc/wpa_supplicant.conf
+
+
+
+
+dwm
+
+To start dwm :
+startx
+
+To quit dwm cleanly:
+press [Shift]+[Alt]+[q]
+
+
+
+Launch a few terminals with 
+[Shift]+[Alt]+[Enter] -
+
+dmenu for running programs like the x-www-browser
+press [Alt]+[p] - 
+
+move stack to master
+[Alt]+[Enter]
+
+To focus on another tag:
+press [Alt]+[tag number].
+ 
+Show all windos:
+press [Alt]+[0].
+
+Resize Windo :
+press [Alt]+[l] or [Alt]+[h]
+ 
+To kill a window:
+press [Shift]+[Alt]+[c].
+
+To move to another terminal:
+press [Alt]+[j] or [Alt]+[k].
+
+
+To change the amount of windows in the master area,
+press [Alt]+[d]  or  or [Alt]+[i]
+
+
+To change the layout modes
+press [Alt]+[f] or [Alt]+[m] or [Alt]+[t] 
+
+
+
+
+
+
+
+

@@ -1,0 +1,82 @@
+https://wiki.manjaro.org/index.php/Main_Page
+
+//mobile
+sudo mkdir /mnt/mtp
+sudo mtpfs -o allow-other /mnt/mtp
+
+sudo pacman -Su
+$10%NPWG
+ 
+ sudo pacman -S git mtp-tools mtpfs
+ sudo pacman -S git gcc make pkg-config
+
+ sudo pacman -S man-pages-devel
+
+ sudo pacman -S webkit2gtk-devel gcr-devel
+
+ sudo pacman -S gst-libav gst-plugins-good1
+
+ sudo pacman -S mpd ffmpeg mpv youtube-dl  coursera-dl
+
+ sudo pacman -S iotop htop
+
+ sudo pacman -S groff sxhkd zathura-pdf-mupdf vim rsync firefox alsa-utils xz ImageMagick pass
+
+
+ sudo pacman -S fuse-exfat
+
+
+wpa_passphrase your-ESSID your-wifi-passphrase | sudo tee /etc/wpa_supplicant.conf
+
+
+
+
+dwm
+
+To start dwm :
+startx
+
+To quit dwm cleanly:
+press [Shift]+[Alt]+[q]
+
+
+
+Launch a few terminals with 
+[Shift]+[Alt]+[Enter] -
+
+dmenu for running programs like the x-www-browser
+press [Alt]+[p] - 
+
+move stack to master
+[Alt]+[Enter]
+
+To focus on another tag:
+press [Alt]+[tag number].
+ 
+Show all windos:
+press [Alt]+[0].
+
+Resize Windo :
+press [Alt]+[l] or [Alt]+[h]
+ 
+To kill a window:
+press [Shift]+[Alt]+[c].
+
+To move to another terminal:
+press [Alt]+[j] or [Alt]+[k].
+
+
+To change the amount of windows in the master area,
+press [Alt]+[d]  or  or [Alt]+[i]
+
+
+To change the layout modes
+press [Alt]+[f] or [Alt]+[m] or [Alt]+[t] 
+
+
+
+
+
+
+
+ 
